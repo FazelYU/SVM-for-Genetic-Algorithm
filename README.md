@@ -1,2 +1,1 @@
-# SVM-for-Genetic-Algorithm
-# SVM-for-Genetic-Algorithm
+Refer to "presentation" and "paper" for explanation
