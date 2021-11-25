@@ -1,5 +1,3 @@
----NOTE: I am currently working on the documentation and the readiblity of the code. Sorry about it :) !
-
 Abstract:
 
 The initial population of an evolutionary algorithm is an important factor in speed and the probability of convergence of the algorithm. The initial population is often selected uniformly from the feasible space. This work proposes a method for selecting a promising initial population for the genetic algorithm. After sampling the feasible space with several local searches, we use a support vector machine (SVM) to learn the relation between the cartesian orientation of a point and its prospective final fitness value. The points with a good fitness estimation are the promising initial points that are passed to the downstream genetic algorithm.  
