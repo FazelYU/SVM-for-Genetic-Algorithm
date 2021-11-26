@@ -91,16 +91,16 @@ Figures below show the results of the UGA and LGA:
 
 <table>
   <tr>
-    <td><img src="/figs/results/PID/LGA_PID.png" width=300 height=250> <figcaption> Fig.1.1-LGA PID design </figcaption></td>
-    <td><img src="/figs/results/PID/UGA_PID.png.png" width=300 height=250> <figcaption> Fig.1.2-UGA PID design </figcaption> </td>
+    <td><img src="/figs/results/PID/LGA_PID.png" width=500 height=300> <figcaption> Fig.1.1-LGA PID design </figcaption></td>
+    <td><img src="/figs/results/PID/UGA_PID.png" width=500 height=300> <figcaption> Fig.1.2-UGA PID design </figcaption> </td>
   </tr>
 </table>
 
 Table below reports  the results alongside the results provided by Krohlo et.al:
 
-<table>
+<table align="center">
   <tr>
-    <td><img src="/figs/results/PID/Table_PID.png" width=300 height=250> <figcaption> Fig.1.1-PID design </figcaption></td>
+    <td><img align="center" src="/figs/results/PID/Table_PID.png" width=900 height=200> <figcaption> Fig.1.1-PID design </figcaption></td>
   </tr>
 </table>
 
