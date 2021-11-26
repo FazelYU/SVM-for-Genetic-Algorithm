@@ -72,16 +72,18 @@ Case Study: Controller Design for an AC Servo Motor
 Consider the transfer function of an AC Servo Motor alongside two PID controllers, one for position and one for speed:
 
 <table>
-  <tr>
+  <tr> <figcaption> 
+85
+      Fig.1.1-LGA Training </figcaption> 
     <td><img src="/figs/systm.png" width=1200 height=300> <figcaption> Fig.1.1-LGA Training </figcaption></td>
   </tr>
 </table>
 
 Where, k <sub>t</sub>, J <sub>m</sub> and B<sub>m</sub> are constant physical attributes that describe the dynamics of the AC servo motor, and K=[k<sub>p1</sub>,k<sub>p2</sub>,k<sub>i1</sub>,k<sub>i2</sub>,k<sub>d1</sub>,k<sub>d2</sub>] are the PID controllers paramters (that we can choose). The goal is to find an optimal soultion for K that minimizes the Integral of the Time Squared Error criteria (ITSE) for the unit response of the system, constrained to reasonabel K values (`0 ≤ k ∈ K ≤ 10`), and the stability check (place of Zeros and Poles of the system). The ITSE criteria is defined as below:
 
-<table>
+<table align="center">
   <tr>
-    <td><img src="/figs/ITSE.png" width=200 height=100> <figcaption> Fig.1.1-LGA Training </figcaption></td>
+    <td> <img src="/figs/ITSE.png" width=200 height=100></td>
   </tr>
 </table>
 
