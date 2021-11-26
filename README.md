@@ -1,7 +1,7 @@
 # SVM-for-Genetic-Algorithm 
 
 * B.Sc. project at Sharif University of Technology, Tehran, Iran
-  * An interdisciplinary topic between Mechanical Engineering (optimal design, linear control) and Computer Engineering (Machine Learninig)
+  * An interdisciplinary topic between Mechanical Engineering (optimal design, linear control) and Computer Engineering (machine learninig)
 
 Abstract:
 -------------------------------
