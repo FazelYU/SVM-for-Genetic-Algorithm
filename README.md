@@ -104,6 +104,23 @@ Table below reports  the results alongside the results provided by <a href="http
   </tr>
 </table>
 
+#### Evaluations:
+
+The figure below shows the step response of the designed system for each algorithm. We can see that the LGA response is smoother with a less overshoot which explains the **25 % improvement** in the ITSE criteria.
+
+<table align="center">
+  <tr>
+    <td><img align="center" src="/figs/results/PID/StepResppng" width=1000 height=200> <figcaption> Fig.1.1-PID design </figcaption></td>
+  </tr>
+</table>
+
+The figures below evaluate the poles and zeros of the system. we can see how the LGA desing has set the poles and zeros near each other.
+
+<table align="center">
+  <tr>
+    <td><img align="center" src="/figs/results/PID/Poles.png" width=1000 height=200> <figcaption> Fig.1.1-PID design </figcaption></td>
+  </tr>
+</table>
 
 
 
