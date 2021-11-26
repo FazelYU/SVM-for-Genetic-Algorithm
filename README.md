@@ -66,25 +66,25 @@ The figures below, show the evaluation of the test functions in higher diminsion
 Case Study: Controller Design for an AC Servo Motor
 -------------------------------------------------
 
-Problem Definition:
---------------------
+#### Problem Definition:
+
 
 Consider the transfer function of an AC Servo Motor alongside two PID controllers, one for position and one for speed:
 
 <table>
   <tr>
-    <td><img src="/figs/system.png" width=1200 height=300> <figcaption> Fig.1.1-LGA Training </figcaption></td>
+    <td><img src="/figs/systm.png" width=1200 height=300> <figcaption> Fig.1.1-LGA Training </figcaption></td>
   </tr>
 </table>
 
-Where, k_t, J_m and B_m are constant physical attributes that describe the dynamics of the AC servo motor, and K=[k_p1,k_p2,k_i1,k_i2,k_d1,kd2] are the PID controllers paramters (that we can choose). The goal is to find an optimal soultion for K that minimizes the Integral of the Time Squared Error criteria (ITSE) for the unit response of the system, constrained to reasonabel K values (0=<k<=10), and the stability check (place of Zeros and Poles of the system). The ITSE criteria is defined as below:
+Where, k <sub>t</sub>, J <sub>m</sub> and B<sub>m</sub> are constant physical attributes that describe the dynamics of the AC servo motor, and K=[k<sub>p1</sub>,k<sub>p2</sub>,k<sub>i1</sub>,k<sub>i2</sub>,k<sub>d1</sub>,k<sub>d2</sub>] are the PID controllers paramters (that we can choose). The goal is to find an optimal soultion for K that minimizes the Integral of the Time Squared Error criteria (ITSE) for the unit response of the system, constrained to reasonabel K values (`0 ≤ k ∈ K ≤ 10`), and the stability check (place of Zeros and Poles of the system). The ITSE criteria is defined as below:
 
 <table>
   <tr>
-    <td><img src="/figs/ITSE.png" width=1200 height=300> <figcaption> Fig.1.1-LGA Training </figcaption></td>
+    <td><img src="/figs/ITSE.png" width=200 height=100> <figcaption> Fig.1.1-LGA Training </figcaption></td>
   </tr>
 </table>
 
-Results:
---------------------------
+#### Results:
+
 
