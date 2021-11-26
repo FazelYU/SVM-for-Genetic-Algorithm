@@ -96,7 +96,7 @@ Figures below show the results of the UGA and LGA:
   </tr>
 </table>
 
-Table below reports  the results alongside the results provided by Krohlo et.al:
+Table below reports  the results alongside the results provided by <a href="https://ieeexplore.ieee.org/abstract/document/626429"> Krohling et.al </a>:
 
 <table align="center">
   <tr>
