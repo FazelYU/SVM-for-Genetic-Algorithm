@@ -5,7 +5,7 @@ Abstract:
 In the recent years, metaheuristic algorithms are used to solve real-life complex problems arising from different fields such as economics, engineering, politics, management, and engineering. Intensification and diversification are the key elements of metaheuristic algorithm. The proper balance between these elements are required to solve the real-life problem in an effective manner. These algorithms are broadly classified into two categories namely single solution and population based metaheuristic algorithm. Single-solution based metaheuristic algorithms utilize single candidate solution and improve this solution by using local search. However, the solution obtained from single-solution based metaheuristics may stuck in local optima. The well-known single-solution based metaheuristics are simulated annealing, tabu search (TS), microcanonical annealing (MA), and guided local search (GLS). Population-based metaheuristics utilizes multiple candidate solutions during the search process. These metaheuristics maintain the diversity in population and avoid the solutions stuck in local optima. Some of well-known population-based metaheuristic algorithms are genetic algorithm (GA), particle swarm optimization (PSO), ant colony optimization (ACO), spotted hyena optimizer (SHO), emperor penguin optimizer (EPO), and seagull optimization (SOA) [43].
 <table align="center">
   <tr>
-    <td><img src="/figs/Abstract.png" width=100 height=400> <figcaption> Fig.1- Metaheuristic Algorithms </figcaption></td>
+    <td><img src="/figs/Abstract.png" width=1000 height=400> <figcaption> Fig.1- Metaheuristic Algorithms </figcaption></td>
   </tr>
 </table>
 
@@ -30,17 +30,17 @@ Experiemental Evaluations:
 The figures below show three well-known test function that work as a benchmark for the optimization problems:
 <table>
   <tr>
-    <td><img src="/figs/test%20cases/Michalewicz.png" width=250 height=250> <figcaption> Fig.1.1-LGA Training </figcaption></td>
-    <td><img src="/figs/test%20cases/Rastrigian.png" width=250 height=250> <figcaption> Fig.1.2-LGA Utilization </figcaption> </td>
-    <td><img src="/figs/test%20cases/Schwefel.png" width=250 height=250> <figcaption> Fig.1.2-LGA Utilization </figcaption> </td>  
+    <td><img src="/figs/test%20cases/Michalewicz.png" width=250 height=250> <figcaption> Fig.3.1- Michalewicz 2D </figcaption></td>
+    <td><img src="/figs/test%20cases/Rastrigian.png" width=250 height=250> <figcaption> Fig.3.2- Rastrigian 2D</figcaption> </td>
+    <td><img src="/figs/test%20cases/Schwefel.png" width=250 height=250> <figcaption> Fig.3.3-Schewefel 2D </figcaption> </td>  
   </tr>
 </table>
 The figures below show a uniform samplig and the local search alongside the labels of the points for each test function in the 2-D case. It also represents the area that the classifier accepts as positive points. 
 <table>
   <tr>
-    <td><img src="/figs/test%20cases/Michalewicz_Classified.png" width=300 height=250> <figcaption> Fig.1.1-LGA Training </figcaption></td>
-    <td><img src="/figs/test%20cases/Rastrigian_Classified.png" width=300 height=250> <figcaption> Fig.1.2-LGA Utilization </figcaption> </td>
-    <td><img src="/figs/test%20cases/Schwefel_Classified.png" width=300 height=250> <figcaption> Fig.1.2-LGA Utilization </figcaption> </td>  
+    <td><img src="/figs/test%20cases/Michalewicz_Classified.png" width=300 height=250> <figcaption> Fig.4.1- Michalewicz 2D </figcaption></td>
+    <td><img src="/figs/test%20cases/Rastrigian_Classified.png" width=300 height=250> <figcaption> Fig.4.2- Rastrigian 2D</figcaption> </td>
+    <td><img src="/figs/test%20cases/Schwefel_Classified.png" width=300 height=250> <figcaption> Fig.4.3-Schewefel 2D </figcaption> </td>  
   </tr>
 </table>
 
@@ -57,9 +57,9 @@ The figures below, show the evaluation of the test functions in higher diminsion
   * meanTime: the average running time of the utilization phase toreach the required precision for the global optimum
 <table>
   <tr>
-    <td><img src="/figs/results/mitchTef.png" width=300 height=500> <figcaption> Fig.1.1-LGA Training </figcaption></td>
-    <td><img src="/figs/results/RastTEf.png" width=300 height=500> <figcaption> Fig.1.2-LGA Utilization </figcaption> </td>
-    <td><img src="/figs/results/scwTef.png" width=300 height=500> <figcaption> Fig.1.2-LGA Utilization </figcaption> </td>  
+    <td><img src="/figs/results/mitchTef.png" width=300 height=500> <figcaption> Fig.5.1- Michalewicz 5D </figcaption></td>
+    <td><img src="/figs/results/RastTEf.png" width=300 height=500> <figcaption> Fig.5.2- Rastrigian 10D </figcaption> </td>
+    <td><img src="/figs/results/scwTef.png" width=300 height=500> <figcaption> Fig.5.3-Schewefel 6D </figcaption> </td>  
   </tr>
 </table>
 
@@ -73,7 +73,7 @@ Consider the transfer function of an AC Servo Motor alongside two PID controller
 
 <table>
   <tr> 
-    <td><img src="/figs/systm.png" width=1200 height=300> <figcaption> Fig.1.1-LGA Training </figcaption></td>
+    <td><img src="/figs/systm.png" width=1200 height=300> <figcaption> Fig.6- System schematic for an AC Servo Motor control</figcaption></td>
   </tr>
 </table>
 
@@ -91,8 +91,8 @@ Figures below show the results of the UGA and LGA:
 
 <table>
   <tr>
-    <td><img src="/figs/results/PID/LGA_PID.png" width=500 height=300> <figcaption> Fig.1.1-LGA PID design </figcaption></td>
-    <td><img src="/figs/results/PID/UGA_PID.png" width=500 height=300> <figcaption> Fig.1.2-UGA PID design </figcaption> </td>
+    <td><img src="/figs/results/PID/LGA_PID.png" width=500 height=300> <figcaption> Fig.7.1-LGA PID design </figcaption></td>
+    <td><img src="/figs/results/PID/UGA_PID.png" width=500 height=300> <figcaption> Fig.7.2-UGA PID design </figcaption> </td>
   </tr>
 </table>
 
@@ -100,7 +100,7 @@ Table below reports  the results alongside the results provided by <a href="http
 
 <table align="center">
   <tr>
-    <td><img align="center" src="/figs/results/PID/Table_PID.png" width=1000 height=200> <figcaption> Fig.1.1-PID design </figcaption></td>
+    <td><img align="center" src="/figs/results/PID/Table_PID.png" width=1000 height=200> <figcaption> Table.1-PID design </figcaption></td>
   </tr>
 </table>
 
@@ -110,7 +110,7 @@ The figure below shows the step response of the designed system for each algorit
 
 <table align="center">
   <tr>
-    <td><img align="center" src="/figs/results/PID/StepResp.png" width=1000 height=400> <figcaption> Fig.1.1-PID design </figcaption></td>
+    <td><img align="center" src="/figs/results/PID/StepResp.png" width=1000 height=400> <figcaption> Fig.8- Step Response Evaluation </figcaption></td>
   </tr>
 </table>
 
@@ -118,7 +118,7 @@ The figures below evaluate the poles and zeros of the system. we can see how the
 
 <table align="center">
   <tr>
-    <td><img align="center" src="/figs/results/PID/Poles.png" width=1000 height=400> <figcaption> Fig.1.1-PID design </figcaption></td>
+    <td><img align="center" src="/figs/results/PID/Poles.png" width=1000 height=400> <figcaption> Fig.9 Poles and Zeros Evaluation </figcaption></td>
   </tr>
 </table>
 
