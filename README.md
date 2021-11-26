@@ -131,5 +131,15 @@ The figures below evaluate the poles and zeros of the system. we can see how the
   </tr>
 </table>
 
+Prerequisetes:
+------------------
+* MATLAB
+* Global Optimization Tool Box
+
+How to run:
+---------------------
+`
+
+`
 
 
