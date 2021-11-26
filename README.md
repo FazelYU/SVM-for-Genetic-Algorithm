@@ -3,8 +3,11 @@
 Abstract:
 -------------------------------
 In the recent years, metaheuristic algorithms are used to solve real-life complex problems arising from different fields such as economics, engineering, politics, management, and engineering. Intensification and diversification are the key elements of metaheuristic algorithm. The proper balance between these elements are required to solve the real-life problem in an effective manner. These algorithms are broadly classified into two categories namely single solution and population based metaheuristic algorithm. Single-solution based metaheuristic algorithms utilize single candidate solution and improve this solution by using local search. However, the solution obtained from single-solution based metaheuristics may stuck in local optima. The well-known single-solution based metaheuristics are simulated annealing, tabu search (TS), microcanonical annealing (MA), and guided local search (GLS). Population-based metaheuristics utilizes multiple candidate solutions during the search process. These metaheuristics maintain the diversity in population and avoid the solutions stuck in local optima. Some of well-known population-based metaheuristic algorithms are genetic algorithm (GA), particle swarm optimization (PSO), ant colony optimization (ACO), spotted hyena optimizer (SHO), emperor penguin optimizer (EPO), and seagull optimization (SOA) [43].
-
-![alt text](https://github.com/FazelYU/SVM-for-Genetic-Algorithm/blob/main/figs/Abstract.png)
+<table>
+  <tr>
+    <td><img src="/figs/Abstract.png" width=1200 height=300> <figcaption> Fig.1.1-LGA Training </figcaption></td>
+  </tr>
+</table>
 
 The initial population of an evolutionary algorithm can directly affect the speed and convergence of the algorithm. The initial population is often selected uniformly from the feasible space allowing the diversifaction of the algorithm. To enhance the intensification of the Genetic Algorithm, we propose a method for selecting a promising initial population. 
 
@@ -42,9 +45,16 @@ The figures below show a uniform samplig and the local search alongside the labe
 </table>
 
 The figures below, show the evaluation of the test functions in higher diminsions. 
-* SS: Sampling Size
+* SS: Sampling Size == population size 
 * UGA: uniform genetic algorithm or the ordinary genetic algorithm
 * SGA: sampled genetic algorithm which runs a gradient descent on every point of the initial population
+* LGA (SS=30): learned genetic algorithm (our approach) with initial population of size 30
+* LGA (SS=100): learned genetic algorithm (our approach) with initial population of size 100
+* X axis: the required precision for the global optimum
+* Y axis: we run each algorithm a fixed number of times (100 experiements for each algorithm)
+  * StalledRatio: the ratio of the number of experiements that could not achieve the required precision for the global optimum
+  * PerfetInitRatio: the ratio of the number of experiements that had a solution in the initial population of the genetic algorithm that already satisfies the required precision for the global optimum
+  * meanTime: the average running time of the utilization phase toreach the required precision for the global optimum
 <table>
   <tr>
     <td><img src="/figs/results/mitchTef.png" width=300 height=500> <figcaption> Fig.1.1-LGA Training </figcaption></td>
@@ -52,3 +62,5 @@ The figures below, show the evaluation of the test functions in higher diminsion
     <td><img src="/figs/results/scwTef.png" width=300 height=500> <figcaption> Fig.1.2-LGA Utilization </figcaption> </td>  
   </tr>
 </table>
+
+
