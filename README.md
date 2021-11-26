@@ -138,8 +138,15 @@ Prerequisetes:
 
 How to run:
 ---------------------
-`
+open "run.m" file. click "run"
+for running different experiements. edit the file "run.m". For example, to run the PID controller design the file should be like below:
 
-`
+```
+line 10: flag=4;
+
+...
+
+line 119: model1=LGA('A1'); 
+```
 
 
