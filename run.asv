@@ -1,5 +1,4 @@
 clc;clear;
-addpath("Code/")
 rng('shuffle','twister');
 GA_options = optimoptions('ga');
 numga=1;
@@ -104,7 +103,7 @@ UGA=@(table_location,options) run_UGA(numga,FFhandle,lb,ub,diminsion,options,fil
 % GA_options = optimoptions(GA_options,'FitnessLimit', -4);
 % SGA('A1',GA_options);
 % GA_options = optimoptions(GA_options,'FitnessLimit', -4.6);
-UGA('A3' ,GA_options);
+% UGA('A3 ,GA_options);
 % GA_options = optimoptions(GA_options,'FitnessLimit', -4.68);
 % UGA('A4',GA_options);
 % GA_options = optimoptions(GA_options,'FitnessLimit', -4.687);
