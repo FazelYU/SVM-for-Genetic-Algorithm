@@ -110,7 +110,7 @@ The figure below shows the step response of the designed system for each algorit
 
 <table align="center">
   <tr>
-    <td><img align="center" src="/figs/results/PID/StepResppng" width=1000 height=200> <figcaption> Fig.1.1-PID design </figcaption></td>
+    <td><img align="center" src="/figs/results/PID/StepResp.png" width=1000 height=400> <figcaption> Fig.1.1-PID design </figcaption></td>
   </tr>
 </table>
 
@@ -118,7 +118,7 @@ The figures below evaluate the poles and zeros of the system. we can see how the
 
 <table align="center">
   <tr>
-    <td><img align="center" src="/figs/results/PID/Poles.png" width=1000 height=200> <figcaption> Fig.1.1-PID design </figcaption></td>
+    <td><img align="center" src="/figs/results/PID/Poles.png" width=1000 height=400> <figcaption> Fig.1.1-PID design </figcaption></td>
   </tr>
 </table>
 
