@@ -100,7 +100,7 @@ Table below reports  the results alongside the results provided by Krohlo et.al:
 
 <table align="center">
   <tr>
-    <td><img align="center" src="/figs/results/PID/Table_PID.png" width=900 height=200> <figcaption> Fig.1.1-PID design </figcaption></td>
+    <td><img align="center" src="/figs/results/PID/Table_PID.png" width=1000 height=200> <figcaption> Fig.1.1-PID design </figcaption></td>
   </tr>
 </table>
 
