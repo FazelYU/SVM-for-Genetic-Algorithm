@@ -17,7 +17,38 @@ Methodology:
 Figure below shows the frame work of the LGA algorithm:
 <table>
   <tr>
-    <td><img src="/figs/LGA_M.png" width=500 height=400> <figcaption>Fig.1.1 - LGA Training</td>
-    <td><img src="/figs/LGA_U.png" width=500 height=400> <figcaption>Fig.1.2 - LGA Utilization</figcaption></td>
+    <td><img src="/figs/LGA_M.png" width=420 height=300> <figcaption> Fig.1.1-LGA Training </figcaption> </td>
+    <td><img src="/figs/LGA_U.png" width=420 height=300> <figcaption> Fig.1.2-LGA Utilization </figcaption> </td> 
+  </tr>
+</table>
+
+Experiemental Evaluations:
+--------------------------
+The figures below show three well-known test function that work as a benchmark for the optimization problems:
+<table>
+  <tr>
+    <td><img src="/figs/test%20cases/Michalewicz.png" width=250 height=250> <figcaption> Fig.1.1-LGA Training </figcaption></td>
+    <td><img src="/figs/test%20cases/Rastrigian.png" width=250 height=250> <figcaption> Fig.1.2-LGA Utilization </figcaption> </td>
+    <td><img src="/figs/test%20cases/Schwefel.png" width=250 height=250> <figcaption> Fig.1.2-LGA Utilization </figcaption> </td>  
+  </tr>
+</table>
+The figures below show a uniform samplig and the local search alongside the labels of the points for each test function in the 2-D case. It also represents the area that the classifier accepts as positive points. 
+<table>
+  <tr>
+    <td><img src="/figs/test%20cases/Michalewicz_Classified.png" width=300 height=250> <figcaption> Fig.1.1-LGA Training </figcaption></td>
+    <td><img src="/figs/test%20cases/Rastrigian_Classified.png" width=300 height=250> <figcaption> Fig.1.2-LGA Utilization </figcaption> </td>
+    <td><img src="/figs/test%20cases/Schwefel_Classified.png" width=300 height=250> <figcaption> Fig.1.2-LGA Utilization </figcaption> </td>  
+  </tr>
+</table>
+
+The figures below, show the evaluation of the test functions in higher diminsions. 
+* SS: Sampling Size
+* UGA: uniform genetic algorithm or the ordinary genetic algorithm
+* SGA: sampled genetic algorithm which runs a gradient descent on every point of the initial population
+<table>
+  <tr>
+    <td><img src="/figs/results/mitchTef.png" width=300 height=500> <figcaption> Fig.1.1-LGA Training </figcaption></td>
+    <td><img src="/figs/results/RastTEf.png" width=300 height=500> <figcaption> Fig.1.2-LGA Utilization </figcaption> </td>
+    <td><img src="/figs/results/scwTef.png" width=300 height=500> <figcaption> Fig.1.2-LGA Utilization </figcaption> </td>  
   </tr>
 </table>
