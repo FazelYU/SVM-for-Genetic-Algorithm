@@ -1,7 +1,13 @@
 # SVM-for-Genetic-Algorithm 
 
-* B.Sc. project at Sharif University of Technology, Tehran, Iran
+* B.Sc. project at Sharif University of Technology, Tehran, Iran:
   * An interdisciplinary topic between Mechanical Engineering (optimal design, linear control) and Computer Engineering (machine learninig)
+* Virtues:
+  * Implementing, training, and hyper-paramter tuning of the SVM algorithm
+  * Experiencing with Genetic Algorithm
+  * Implementing and using the Gradient Descent Algorithm
+  * Extending my knowledge about global optimization, and optimization test functions
+  * Extending my knowledge about linear control theory
 
 Abstract:
 -------------------------------
