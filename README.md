@@ -5,7 +5,7 @@ Abstract:
 In the recent years, metaheuristic algorithms are used to solve real-life complex problems arising from different fields such as economics, engineering, politics, management, and engineering. Intensification and diversification are the key elements of metaheuristic algorithm. The proper balance between these elements are required to solve the real-life problem in an effective manner. These algorithms are broadly classified into two categories namely single solution and population based metaheuristic algorithm. Single-solution based metaheuristic algorithms utilize single candidate solution and improve this solution by using local search. However, the solution obtained from single-solution based metaheuristics may stuck in local optima. The well-known single-solution based metaheuristics are simulated annealing, tabu search (TS), microcanonical annealing (MA), and guided local search (GLS). Population-based metaheuristics utilizes multiple candidate solutions during the search process. These metaheuristics maintain the diversity in population and avoid the solutions stuck in local optima. Some of well-known population-based metaheuristic algorithms are genetic algorithm (GA), particle swarm optimization (PSO), ant colony optimization (ACO), spotted hyena optimizer (SHO), emperor penguin optimizer (EPO), and seagull optimization (SOA) [43].
 <table align="center">
   <tr>
-    <td><img src="/figs/Abstract.png" width=900 height=300> <figcaption> Fig.1.1-LGA Training </figcaption></td>
+    <td><img src="/figs/Abstract.png" width=100 height=400> <figcaption> Fig.1- Metaheuristic Algorithms </figcaption></td>
   </tr>
 </table>
 
@@ -20,8 +20,8 @@ Methodology:
 Figure below shows the frame work of the LGA algorithm:
 <table>
   <tr>
-    <td><img src="/figs/LGA_M.png" width=420 height=300> <figcaption> Fig.1.1-LGA Training </figcaption> </td>
-    <td><img src="/figs/LGA_U.png" width=420 height=300> <figcaption> Fig.1.2-LGA Utilization </figcaption> </td> 
+    <td><img src="/figs/LGA_M.png" width=500 height=300> <figcaption> Fig.2.1-LGA Training </figcaption> </td>
+    <td><img src="/figs/LGA_U.png" width=500 height=300> <figcaption> Fig.2.2-LGA Utilization </figcaption> </td> 
   </tr>
 </table>
 
