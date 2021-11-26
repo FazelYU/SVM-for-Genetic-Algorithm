@@ -1,4 +1,6 @@
-# SVM-for-Genetic-Algorithm
+# SVM-for-Genetic-Algorithm 
+
+* B.Sc. project with an interdisciplinary topic between Mechanical Engineering (optimal design, linear control) and Computer Engineering (Machine Learninig)
 
 Abstract:
 -------------------------------
